@@ -1,0 +1,57 @@
+2025-09-26 21:26:42,843 DEBUG cd frappe-bench && python3 -m venv env
+2025-09-26 21:26:43,901 DEBUG cd frappe-bench && /Users/apple/Desktop/LearningFrappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-09-26 21:26:44,601 DEBUG cd frappe-bench && /Users/apple/Desktop/LearningFrappe/frappe-bench/env/bin/python -m pip install --quiet wheel
+2025-09-26 21:26:45,705 LOG Getting frappe
+2025-09-26 21:26:45,706 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2025-09-26 21:27:06,743 LOG Installing frappe
+2025-09-26 21:27:06,773 DEBUG cd /Users/apple/Desktop/LearningFrappe/frappe-bench && /Users/apple/Desktop/LearningFrappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/apple/Desktop/LearningFrappe/frappe-bench/apps/frappe 
+2025-09-26 21:28:45,174 DEBUG cd /Users/apple/Desktop/LearningFrappe/frappe-bench/apps/frappe && yarn install --check-files
+2025-09-26 21:28:58,686 DEBUG cd frappe-bench && bench build
+2025-09-26 21:28:58,844 INFO /Users/apple/.local/bin/bench build
+2025-09-26 21:29:13,863 LOG setting up backups
+2025-09-26 21:29:15,486 LOG backups were set up
+2025-09-26 21:29:15,486 INFO Bench frappe-bench initialized
+2025-09-26 21:29:33,944 INFO /Users/apple/.local/bin/bench start
+2025-09-26 21:29:33,947 WARNING /Users/apple/.local/bin/bench start executed with exit code 1
+2025-09-26 21:30:49,970 INFO /Users/apple/.local/bin/bench pip install honcho
+2025-09-26 21:30:56,140 INFO /Users/apple/.local/bin/bench start
+2025-09-26 21:30:56,143 WARNING /Users/apple/.local/bin/bench start executed with exit code 1
+2025-09-26 21:31:08,752 INFO /Users/apple/.local/bin/bench start
+2025-09-26 21:31:08,754 WARNING /Users/apple/.local/bin/bench start executed with exit code 1
+2025-09-26 21:34:29,131 INFO /Users/apple/.local/bin/bench start
+2025-09-26 21:34:29,133 WARNING /Users/apple/.local/bin/bench start executed with exit code 1
+2025-09-26 21:35:17,819 INFO /Users/apple/.local/bin/bench start
+2025-09-26 21:35:17,821 WARNING /Users/apple/.local/bin/bench start executed with exit code 1
+2025-09-26 21:35:44,475 INFO /Users/apple/.local/bin/bench start --procman honcho
+2025-09-26 21:35:44,479 WARNING /Users/apple/.local/bin/bench start --procman honcho executed with exit code 2
+2025-09-26 21:35:53,085 INFO /Users/apple/.local/bin/bench start
+2025-09-26 21:35:53,087 WARNING /Users/apple/.local/bin/bench start executed with exit code 1
+2025-09-26 21:36:12,110 INFO /Users/apple/.local/bin/bench start
+2025-09-26 21:36:13,321 INFO /Users/apple/.local/bin/bench watch
+2025-09-26 21:36:13,322 INFO /Users/apple/.local/bin/bench serve --port 8000
+2025-09-26 21:36:13,326 INFO /Users/apple/.local/bin/bench worker
+2025-09-26 21:36:13,327 INFO /Users/apple/.local/bin/bench schedule
+2025-09-26 21:38:56,001 INFO /Users/apple/.local/bin/bench new-app libManagement
+2025-09-26 21:38:56,003 LOG creating new app libmanagement
+2025-09-26 21:39:10,556 WARNING /Users/apple/.local/bin/bench new-app libManagement executed with exit code 1
+2025-09-26 21:39:12,042 INFO /Users/apple/.local/bin/bench new-app libManagement
+2025-09-26 21:39:12,044 LOG creating new app libmanagement
+2025-09-26 21:39:46,962 LOG Installing libmanagement
+2025-09-26 21:39:46,963 DEBUG cd /Users/apple/Desktop/LearningFrappe/frappe-bench && /Users/apple/Desktop/LearningFrappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/apple/Desktop/LearningFrappe/frappe-bench/apps/libmanagement 
+2025-09-26 21:39:48,255 DEBUG bench build --app libmanagement
+2025-09-26 21:39:48,369 INFO /Users/apple/.local/bin/bench build --app libmanagement
+2025-09-26 21:45:53,713 INFO /Users/apple/.local/bin/bench new-site library.localhost
+2025-09-26 22:44:40,919 INFO /Users/apple/.local/bin/bench --site library.localhost add-to-hosts
+2025-09-26 22:45:29,808 INFO /Users/apple/.local/bin/bench start
+2025-09-26 22:45:30,160 INFO /Users/apple/.local/bin/bench watch
+2025-09-26 22:45:30,160 INFO /Users/apple/.local/bin/bench worker
+2025-09-26 22:45:30,162 INFO /Users/apple/.local/bin/bench schedule
+2025-09-26 22:45:30,165 INFO /Users/apple/.local/bin/bench serve --port 8000
+2025-09-26 22:47:03,620 INFO /Users/apple/.local/bin/bench --site library.localhost install-app libmanagement
+2025-09-26 22:47:29,401 INFO /Users/apple/.local/bin/bench --site library.localhost list-apps
+2025-09-26 22:49:36,512 INFO /Users/apple/.local/bin/bench --site library.localhost set-admin-password admin
+2025-09-26 22:54:58,635 INFO /Users/apple/.local/bin/bench --site library.localhost backup
+2025-09-26 22:55:25,723 INFO /Users/apple/.local/bin/bench --help
+2025-09-26 22:56:16,780 INFO /Users/apple/.local/bin/bench set-config -g developer_mode true
+2025-09-26 22:56:17,165 INFO /Users/apple/.local/bin/bench start
+2025-09-26 23:12:27,895 INFO /Users/apple/.local/bin/bench --site library.localhost mariadb

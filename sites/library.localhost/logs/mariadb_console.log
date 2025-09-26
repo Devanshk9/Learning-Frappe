@@ -1,0 +1,11 @@
+_HiStOrY_V2_
+desc\040tabArticle
+desc\040tabArticle;
+desc\040tabArticle\040\040desc\040tabArticle\040desc\040tabArticle;
+describe\040tabArticle;
+uit;
+select\040*\040from\040tabArticle
+select\040*\040from\040tabArticle;
+select\040*\040from\040tabArticle\040\040select\040*\040from\040tabArticle;
+select\040*\040from\040tabArticle;
+quit;
