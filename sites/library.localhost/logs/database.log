@@ -2629,3 +2629,9 @@ ALTER TABLE `tabLibrary Transaction` ADD COLUMN `article` varchar(140), ADD COLU
 ALTER TABLE `tabLibrary Transaction` ADD COLUMN `amended_from` varchar(140)
 2025-09-28 22:29:31,379 WARNING database DDL Query made to DB:
 ALTER TABLE `tabLibrary Transaction` ADD INDEX `amended_from_index`(`amended_from`)
+2025-09-28 23:06:56,776 WARNING database DDL Query made to DB:
+ALTER TABLE `tabArticle` ADD COLUMN `amended_from` varchar(140)
+2025-09-28 23:06:56,824 WARNING database DDL Query made to DB:
+ALTER TABLE `tabArticle` ADD INDEX `amended_from_index`(`amended_from`)
+2025-09-28 23:11:14,333 WARNING database DDL Query made to DB:
+ALTER TABLE `tabArticle` ADD COLUMN `published` tinyint(4) NOT NULL DEFAULT 0, ADD COLUMN `route` varchar(140)
