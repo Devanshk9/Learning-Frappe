@@ -3,7 +3,7 @@ redis_cache: redis-server config/redis_cache.conf
 redis_queue: redis-server config/redis_queue.conf
 
 
-web: bench serve  --port 8000
+web: bench serve  --port 8004
 
 
 socketio: /Users/apple/.nvm/versions/node/v20.19.5/bin/node apps/frappe/socketio.js

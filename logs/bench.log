@@ -55,3 +55,92 @@
 2025-09-26 22:56:16,780 INFO /Users/apple/.local/bin/bench set-config -g developer_mode true
 2025-09-26 22:56:17,165 INFO /Users/apple/.local/bin/bench start
 2025-09-26 23:12:27,895 INFO /Users/apple/.local/bin/bench --site library.localhost mariadb
+2025-09-27 12:00:02,173 INFO /Users/apple/.local/bin/bench --verbose --site all backup
+2025-09-27 20:32:40,374 INFO /Users/apple/.local/bin/bench start
+2025-09-27 20:34:03,947 INFO /Users/apple/.local/bin/bench start
+2025-09-27 20:34:38,388 INFO /Users/apple/.local/bin/bench start
+2025-09-27 20:34:38,660 INFO /Users/apple/.local/bin/bench watch
+2025-09-27 20:34:38,660 INFO /Users/apple/.local/bin/bench serve --port 8004
+2025-09-27 20:34:38,665 INFO /Users/apple/.local/bin/bench schedule
+2025-09-27 20:34:38,666 INFO /Users/apple/.local/bin/bench worker
+2025-09-27 20:36:41,708 INFO /Users/apple/.local/bin/bench --site library.localhost enable-scheduler
+2025-09-27 20:36:46,343 INFO /Users/apple/.local/bin/bench start
+2025-09-27 20:36:46,607 INFO /Users/apple/.local/bin/bench serve --port 8004
+2025-09-27 20:36:46,609 INFO /Users/apple/.local/bin/bench worker
+2025-09-27 20:36:46,609 INFO /Users/apple/.local/bin/bench schedule
+2025-09-27 20:36:46,609 INFO /Users/apple/.local/bin/bench watch
+2025-09-27 20:37:02,908 INFO /Users/apple/.local/bin/bench --site library.localhost migrate
+2025-09-27 20:37:07,004 INFO /Users/apple/.local/bin/bench start
+2025-09-27 20:37:07,272 INFO /Users/apple/.local/bin/bench serve --port 8004
+2025-09-27 20:37:07,277 INFO /Users/apple/.local/bin/bench worker
+2025-09-27 20:37:07,278 INFO /Users/apple/.local/bin/bench watch
+2025-09-27 20:37:07,278 INFO /Users/apple/.local/bin/bench schedule
+2025-09-27 20:38:08,238 INFO /Users/apple/.local/bin/bench use library.localhost
+2025-09-27 20:38:11,710 INFO /Users/apple/.local/bin/bench start
+2025-09-27 20:38:11,986 INFO /Users/apple/.local/bin/bench serve --port 8004
+2025-09-27 20:38:11,987 INFO /Users/apple/.local/bin/bench worker
+2025-09-27 20:38:11,987 INFO /Users/apple/.local/bin/bench schedule
+2025-09-27 20:38:11,987 INFO /Users/apple/.local/bin/bench watch
+2025-09-27 20:38:22,504 INFO /Users/apple/.local/bin/bench --site library.localhost set-config scheduler_enabled 1
+2025-09-27 20:38:22,818 INFO /Users/apple/.local/bin/bench --site library.localhost set-config pause_scheduler 0
+2025-09-27 20:38:23,133 INFO /Users/apple/.local/bin/bench --site library.localhost set-maintenance-mode off
+2025-09-27 20:38:25,892 INFO /Users/apple/.local/bin/bench start
+2025-09-27 20:38:26,157 INFO /Users/apple/.local/bin/bench serve --port 8004
+2025-09-27 20:38:26,158 INFO /Users/apple/.local/bin/bench schedule
+2025-09-27 20:38:26,158 INFO /Users/apple/.local/bin/bench worker
+2025-09-27 20:38:26,158 INFO /Users/apple/.local/bin/bench watch
+2025-09-27 20:38:56,947 INFO /Users/apple/.local/bin/bench --site library.localhost migrate
+2025-09-27 20:38:58,347 INFO /Users/apple/.local/bin/bench --site library.localhost enable-scheduler # also writes to DB
+2025-09-27 20:39:10,397 INFO /Users/apple/.local/bin/bench start
+2025-09-27 20:39:32,318 INFO /Users/apple/.local/bin/bench list-sites
+2025-09-27 20:39:32,644 INFO /Users/apple/.local/bin/bench use library.localhost
+2025-09-27 20:39:44,823 INFO /Users/apple/.local/bin/bench --site library.localhost execute frappe.utils.scheduler.is_scheduler_inactive
+2025-09-27 20:39:47,881 INFO /Users/apple/.local/bin/bench start
+2025-09-27 20:41:35,500 INFO /Users/apple/.local/bin/bench start
+2025-09-27 20:41:35,827 INFO /Users/apple/.local/bin/bench serve --port 8004
+2025-09-27 20:41:35,827 INFO /Users/apple/.local/bin/bench schedule
+2025-09-27 20:41:35,828 INFO /Users/apple/.local/bin/bench watch
+2025-09-27 20:41:35,829 INFO /Users/apple/.local/bin/bench worker
+2025-09-27 20:44:01,752 INFO /Users/apple/.local/bin/bench start
+2025-09-27 20:44:02,019 INFO /Users/apple/.local/bin/bench serve --port 8004
+2025-09-27 20:44:41,625 INFO /Users/apple/.local/bin/bench use library.localhost
+2025-09-27 20:44:41,940 INFO /Users/apple/.local/bin/bench --site library.localhost set-config scheduler_enabled 1
+2025-09-27 20:44:42,241 INFO /Users/apple/.local/bin/bench --site library.localhost set-config pause_scheduler 0
+2025-09-27 20:44:42,544 INFO /Users/apple/.local/bin/bench --site library.localhost set-maintenance-mode off
+2025-09-27 20:44:42,856 INFO /Users/apple/.local/bin/bench --site library.localhost migrate
+2025-09-27 20:44:43,338 INFO /Users/apple/.local/bin/bench --site library.localhost enable-scheduler
+2025-09-27 20:45:16,653 INFO /Users/apple/.local/bin/bench start
+2025-09-27 20:47:43,880 INFO /Users/apple/.local/bin/bench start
+2025-09-27 20:48:03,626 INFO /Users/apple/.local/bin/bench start
+2025-09-27 20:48:03,895 INFO /Users/apple/.local/bin/bench serve --port 8004
+2025-09-27 20:48:03,895 INFO /Users/apple/.local/bin/bench schedule
+2025-09-27 20:48:03,895 INFO /Users/apple/.local/bin/bench watch
+2025-09-27 20:48:03,895 INFO /Users/apple/.local/bin/bench worker
+2025-09-27 20:48:31,042 INFO /Users/apple/.local/bin/bench --site library.localhost doctor
+2025-09-27 20:48:35,414 INFO /Users/apple/.local/bin/bench --site library.localhost show-config
+2025-09-27 20:53:23,089 INFO /Users/apple/.local/bin/bench set-config -g redis_socketio redis://127.0.0.1:12000
+2025-09-27 20:53:27,719 INFO /Users/apple/.local/bin/bench start
+2025-09-27 20:53:27,978 INFO /Users/apple/.local/bin/bench serve --port 8004
+2025-09-27 20:53:27,980 INFO /Users/apple/.local/bin/bench worker
+2025-09-27 20:53:27,982 INFO /Users/apple/.local/bin/bench schedule
+2025-09-27 20:53:27,982 INFO /Users/apple/.local/bin/bench watch
+2025-09-27 20:54:20,082 INFO /Users/apple/.local/bin/bench use library.localhost
+2025-09-27 20:54:20,398 INFO /Users/apple/.local/bin/bench --site library.localhost set-config scheduler_enabled 1
+2025-09-27 20:54:20,700 INFO /Users/apple/.local/bin/bench --site library.localhost set-config pause_scheduler 0
+2025-09-27 20:54:21,013 INFO /Users/apple/.local/bin/bench --site library.localhost set-maintenance-mode off
+2025-09-27 20:54:21,327 INFO /Users/apple/.local/bin/bench --site library.localhost migrate
+2025-09-27 20:54:22,482 INFO /Users/apple/.local/bin/bench --site library.localhost enable-scheduler
+2025-09-27 20:54:22,898 INFO /Users/apple/.local/bin/bench --site library.localhost execute import frappe; print(frappe.get_conf().get('scheduler_enabled'), frappe.get_conf().get('pause_scheduler'))
+2025-09-27 20:54:33,639 INFO /Users/apple/.local/bin/bench start
+2025-09-27 21:01:18,867 INFO /Users/apple/.local/bin/bench start
+2025-09-27 21:01:19,183 INFO /Users/apple/.local/bin/bench schedule
+2025-09-27 21:01:19,184 INFO /Users/apple/.local/bin/bench watch
+2025-09-27 21:01:19,184 INFO /Users/apple/.local/bin/bench serve --port 8004
+2025-09-27 21:01:19,187 INFO /Users/apple/.local/bin/bench worker
+2025-09-28 12:00:01,270 INFO /Users/apple/.local/bin/bench --verbose --site all backup
+2025-09-28 18:00:01,089 INFO /Users/apple/.local/bin/bench --verbose --site all backup
+2025-09-28 21:27:45,515 INFO /Users/apple/.local/bin/bench start
+2025-09-28 21:27:45,788 INFO /Users/apple/.local/bin/bench serve --port 8004
+2025-09-28 21:27:45,789 INFO /Users/apple/.local/bin/bench watch
+2025-09-28 21:27:45,789 INFO /Users/apple/.local/bin/bench schedule
+2025-09-28 21:27:45,790 INFO /Users/apple/.local/bin/bench worker

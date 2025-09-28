@@ -2599,3 +2599,33 @@ index creation(creation))
 			ROW_FORMAT=DYNAMIC
 			CHARACTER SET=utf8mb4
 			COLLATE=utf8mb4_unicode_ci
+2025-09-28 21:35:49,269 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Membership` ADD COLUMN `librarymember` varchar(140), ADD COLUMN `fullname` varchar(140), ADD COLUMN `fromdate` date, ADD COLUMN `todate` date, ADD COLUMN `paid` tinyint(4) NOT NULL DEFAULT 0
+2025-09-28 21:37:25,166 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Membership` ADD COLUMN `amended_from` varchar(140)
+2025-09-28 21:37:25,213 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Membership` ADD INDEX `amended_from_index`(`amended_from`)
+2025-09-28 22:24:12,641 WARNING database DDL Query made to DB:
+create table `tabLibrary Transaction` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2025-09-28 22:29:20,185 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` ADD COLUMN `article` varchar(140), ADD COLUMN `librarymember` varchar(140), ADD COLUMN `type` tinyint(4) NOT NULL DEFAULT 0, ADD COLUMN `dateoftransaction` date
+2025-09-28 22:29:31,330 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` ADD COLUMN `amended_from` varchar(140)
+2025-09-28 22:29:31,379 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Transaction` ADD INDEX `amended_from_index`(`amended_from`)

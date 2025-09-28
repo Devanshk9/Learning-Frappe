@@ -2,5 +2,8 @@
  "db_name": "_0413f7c508855600",
  "db_password": "P2W9N6BuDkuDS1Z5",
  "db_type": "mariadb",
- "db_user": "_0413f7c508855600"
+ "db_user": "_0413f7c508855600",
+ "maintenance_mode": 0,
+ "pause_scheduler": 0,
+ "scheduler_enabled": 1
 }
